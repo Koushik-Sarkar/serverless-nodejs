@@ -4,7 +4,7 @@ module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless v1.0! Koushik\'s function executed successfully twice!',
+      message: 'Go Serverless v1.0! Koushik\'s function executed successfully offline!',
       input: event,
     }),
   };
